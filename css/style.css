@@ -1,0 +1,289 @@
+/* 
+orange - #FF9711
+deep brown - #A6620A
+sky blue - #37B1F2
+baby blue - #53C3FF
+navy blue - #0C405C
+kidney red - #981D20
+super light gray - #BDB7AC
+*/
+
+
+.navbar {
+	margin-bottom: 0;
+	border: 0;
+	height: 70px;
+}
+
+.navbar-inverse {
+	border: none;
+}
+
+
+.navbar-brand {
+	background: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+	width: 120px;
+	height: 70px;
+	background-position: 15px 5px;
+	padding: 0;
+	margin: 0;
+}
+
+.nav li {
+	float: left;
+	padding-top: 10px;
+}
+
+button .navbar-toggle {
+	margin-top: 10px;
+}
+
+/* JUMBOTRONS 
+=================*/
+
+.main {
+	background-image: url("../img/jumbotron-2.jpg");
+	height: 400px;
+	background-size: cover;
+}
+
+.main .container {
+	color: #000000;
+	line-height: 150%;
+	letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+	color:#ffffff;
+}
+
+.about {
+	background-color: #0C405C;
+	color:#ffffff;
+}
+
+.about img {
+	float: right;
+	clear: right;
+	height: 20%;
+	display: block;
+    margin-left: 30px;
+}
+
+
+.page {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.page-header {
+	height: 120px;
+	text-align: center;
+	line-height: 150%;
+}
+
+#marketing {
+	text-align: center;
+}
+
+#marketing img {
+	height: 200px;
+	padding: 10px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#explorer {
+	background-color: #FF9711;
+	padding: 30px;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#explorer img {
+	height: 50px;
+}
+
+/* MAP ELEMENTS */
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+	background-color: #53C3FF;
+}
+
+#budget {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*background-color: #666666;*/
+}
+
+#budget legend {
+	border-bottom: none;
+	margin-bottom: 5px;
+}
+
+#budget-box {
+	padding: 10px;
+}
+
+/* MAP ELEMENTS */
+
+#slider-range {
+	width: 100%;
+	font-size: 1.5em;
+}
+
+.legend {	
+	background: white;
+	padding: 10px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+	width: 150px;
+	color: #555;
+	line-height: 14px;
+}
+
+.legend i {
+	width: 14px;
+    height: 14px;
+    float: left;
+    margin-right: 8px;
+	opacity: 0.7;
+}
+
+
+#map { 
+    width: 100%;
+	height: 500px;
+    display: block;
+	overflow: hidden;
+	padding: 30px;
+}
+
+#amount {
+	border: 0; 
+	color: #f6931f; 
+	font-weight: bold;
+	background: transparent;
+}
+
+#product-images {
+	width: 100%;
+}
+
+#images h4 {
+	margin-bottom: 0;
+}
+
+.product-img {
+	display: inline;
+	margin: 10px;
+}
+
+.current-img  img {
+	height: 150px;
+	float: left;
+    margin-right: 10px;
+}
+
+.current-img p {
+	font-size: .75em;
+}
+
+/* Checkout 
+=======================*/
+.table .small {
+	color: #666666;
+}
+
+
+
+
+/* Consequences 
+=======================*/
+#consequences {
+	background-color: #FF9711;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 0px;
+}
+
+#consequences img {
+	width: 150px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+#consequences h2 {
+	text-align: center;
+}
+*/
+
+#donor-fate {
+	font-style: italic;
+}
+
+#donor-fate a {
+	font-style: normal;
+}
+
+.buttons {
+	margin: 50px 0;
+	text-align: center;
+	
+}
+
+.buttons button {
+	margin: 0 5px;
+}
+
+
+/* SLICK CAROUSEL
+=======================*/
+.slick-slide {
+	width: 100%;
+	height: 150px;
+}
+
+.slick-slide img {
+	margin: auto;
+}
+
+.slick-prev:before, .slick-next:before{
+	color: #000;
+	margin: 0;
+}
+
+.slick-next {
+	right: -15px;
+}	
+
+.slick-prev {
+	left: -15px;
+}
+
+/* ABOUT PAGE */
+
+#risks h2 {
+	font-size: 1.5em;
+}
+
+#risks ul {
+	padding-left: 3px;
+}
+
+#risks li {
+	font-size: .85em;
+}
+
+#works-cited p {
+	font-size: .85em;
+}

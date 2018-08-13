@@ -1,0 +1,309 @@
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="Organ Outlet" content="Information design & simulation of the global organ trade">
+		
+		<title>Organ Outlet: Your One-Stop Chop Shop</title>
+		<link rel="stylesheet" type="text/css" href="css/leaflet.css"/>
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<!-- Navigation goes here 
+		================================================-->
+		<nav class="navbar navbar-static-top navbar-inverse inbody">
+		  <div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html"></a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span> 
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+			  <ul class="nav navbar-nav navbar-right">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About this project</a></li>
+			  </ul>
+			</div><!--navbar-->
+		  </div><!-- /.container -->
+		</nav><!-- /.navbar -->
+		<!-- Navigation end -->
+		
+		
+		<!-- Jumbotron goes here 
+		================================================-->
+
+		<div class="jumbotron main">
+		  <div class="container">
+			<h1>Need a kidney?</h1>
+			<p>There's an app for that.</p>
+		  </div>
+		</div>
+
+		<div class="page" id="marketing">
+			<div class="container">
+			  <div class="row">
+				<div class="page-header">
+					<h1>Bringing you the best in kidney prices</h1>
+					<p>Experiencing kidney failure? Is dialysis dragging you down? Are you too far down the organ waiting list? <b>We can help.</b></p>
+				</div>
+				<div class="col-md-4">
+					<img src="img/marketing-1.png"/>
+				  <h2>Curated Kidneys</h2>
+				  <p>Kidneys are fresh & personalized from all over the world.</p>
+				</div><!--col-md-4-->
+				<div class="col-md-4">
+					<img src="img/marketing-2.png"/>
+				  <h2>Sharing Economy</h2>
+				  <p>Look up living donors and learn about their unique stories.</p>
+			   </div><!--col-md-4-->
+				<div class="col-md-4">
+					<img src="img/marketing-3.png"/>
+				  <h2>Free Market Experience</h2>
+				  <p>No lines, no red tape and way cheaper than dialysis.</p>
+				</div><!--col-md-4-->
+			  </div><!--row-->
+			</div><!--marketing-->
+		</div>
+
+
+		<!-- map starts here -->
+		<div class="page" id="explorer">
+			<div class="container">
+				<div class="row">
+						<img src="img/shopping-cart.png"/>
+						<h1>Kidney Explorer</h1>
+						<p>Find available kidneys and add them to your shopping cart</p>
+				</div><!--row-->
+			</div><!--container-->
+		</div><!--page-->
+		
+		<div class="page" id="customer">
+			<div class="container">
+				<div class="row">
+					<fieldset>
+					<!-- Form Name -->
+					<legend>First, tell us more about yourself</legend>
+
+					<!-- Select Basic -->
+					<div class="form-group">
+					  <label class="col-md-4 control-label" for="country">Country of Origin 
+					  <a title="We picked the top countries that buy kidneys from overseas."><span class="glyphicon glyphicon-question-sign"></span></a>
+					  
+					  </label>
+					  <div class="col-md-5">
+						<select id="country" name="country" class="form-control" >
+						  <option value="1">Australia</option>
+						  <option value="2">Canada</option>
+						  <option value="3">Israel</option>
+						  <option value="4">Italy</option>
+						  <option value="5">Japan</option>
+						  <option value="6">Oman</option>
+						  <option value="7">Saudi Arabia</option>
+						  <option value="8">Taiwan</option>
+						  <option value="9">United Kingdom</option>
+						  <option value="10">United States</option>
+						  <option value="11">Other</option>
+						</select>
+					  </div><!--col-md-5-->
+					</div><!--form group-->
+					
+					<!-- Multiple Radios -->
+					<div class="form-group">
+					  <label class="col-md-4 control-label" for="scenario">Which best describes your current situation?</label>
+					  <div class="col-md-8">
+						  <div class="radio">
+							<label for="scenario-0">
+							  <input type="radio" name="scenario" id="scenario-0" value="0" checked="checked">
+							  "My body can't take dialysis anymore. I have a few months to live."
+							</label>
+							</div>
+						  <div class="radio">
+							<label for="scenario-1">
+							  <input type="radio" name="scenario" id="scenario-1" value="1">
+							  "Dialysis is like a living death. You get cataracts, problems in your gut, you can hardly eat. You lose your libido, the ability to relieve yourself, and your energy."
+							</label>
+							</div>
+						  <div class="radio">
+							<label for="scenario-2">
+							  <input type="radio" name="scenario" id="scenario-2" value="2">
+							  "Well, I can’t attach myself to a machine three days a week. I’ve just started a new company and I can’t lose a minute. I need a kidney now."
+							</label>
+							</div>
+						  <div class="radio">
+							<label for="scenario-3">
+							  <input type="radio" name="scenario" id="scenario-3" value="3">
+							  "Dialysis costs me 88,000 dollars a year. My body, immune system and mental state declined. You get deeply depressed."
+							</label>
+							</div>
+					  </div><!--col-md-4-->
+					</div><!--form-group-->					
+					
+					
+					</fieldset>
+				</form>
+				</div><!--row-->
+			</div><!--container-->
+		</div><!--page-->
+		
+		<div class="page" id="budget">
+			<div class="container">
+				<div class="row">
+					<fieldset>
+						<div class="form-group">
+							<legend> Choose your budget (in USD): <input type="text" id="amount" readonly></input>
+							</legend>
+							<div id="slider-range"></div>
+						</div><!--form-group-->
+					</fieldset>
+				</div><!--row-->
+				
+				<div class="row">
+					<div class="col-md-8">
+						<div id="map"></div>
+					</div>
+					
+					<div id="images" class="col-md-4 thumbnail">
+						<div>
+							<h3>Customer Images</h3>
+							<p>See photos of donors and receivers on the web.</p>
+							<div id="customer-img" class="customer-img"></div>
+						</div>
+						
+						<div>
+							<h3>Related Products</h3>
+							<p>Shop for items within a similar price range.</p>
+							<div class="product-img">
+								
+							
+							</div>
+						</div>
+					</div><!--col-->
+				</div><!--row-->
+			</div><!--container-->
+		</div><!--budget-->
+		
+		<div class="page" id="checkout">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-offset-3 col-md-6 text-center">
+						<h2>Review your order</h2>
+							<table class="table">
+								<tbody>
+								  <tr>
+									<td>Donor's Share</td>
+									<td id="fee">Donor's fee</td>
+								  </tr>
+								  <tr>
+									<td style="width: 60%">
+										<p>Transplant Tourism Package</p>
+										<p class="small">Broker fees, doctor fees, hospitalization, plane tickets, visa, travel accommodations, testing and screening</p>
+									</td>
+									<td id="package">Actual cost here</td>
+								  </tr>
+								  <tr>
+									<td>Estimated total cost</td>
+									<td id="total">Total cost here</td>
+								  </tr>
+								</tbody>
+							  </table>
+						<div class="buttons">
+							<button type="button" class="btn btn-primary" id="checkout-btn">Check Out</button>
+							<button type="button" class="btn btn-secondary" id="back">Choose another</button>
+						</div><!--buttons-->
+					</div><!--col-->
+				</div><!--row-->
+			</div><!--container-->
+		</div><!--checkout-->
+		
+		<div class="page" id="consequences">
+			<div class="container">
+				<div class="row">
+					<img src="img/logo-face.png"/>
+					<h1>Thank you for your purchase!</h1>
+					<p class="lead">We will send out a confirmation once we have coordinated with our brokers, who will make sure you get your kidney.</p>
+				</div><!--row-->
+				
+				<div class="row">
+					<h2>Customer Reviews</h2>
+					<div class="col-md-6 review">
+						<h3 id="donor-name">Donor's Review</h3>
+						<div id="donor-fate">Your donor's fate.</div>
+					</div>
+					
+					<div class="col-md-6 review">
+						<h3>Your Review</h3>
+						<div id="buyer-fate">Your fate.</div>
+					</div>
+					
+					<div class="col-md-12">
+						<div class="buttons">
+							<button type="button" class="btn btn-primary" id="continue">Continue Shopping</button>
+							<a href="about.html" target="_blank"><button type="button" class="btn btn-secondary">No way</button></a>
+						</div><!--btn-group-->
+					</div>
+					
+				</div><!--row-->
+			</div><!--container-->
+		</div><!--page-->
+	
+			
+		<!--Script files go here-->
+		<script type="text/javascript" src="js/leaflet.js"></script><!--leaflet-->
+		<script type="text/javascript" src="js/jquery.min.js"></script><!--JQuery-->
+		<script type="text/javascript" src="js/bootstrap.min.js"></script><!--Bootstrap-->
+		<script type="text/javascript" src="js/jquery-ui.js"></script><!--JQuery UI-->
+		<script src="http://cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script><!--Scrolling Plugin-->
+		<script type="text/javascript" src="slick/slick.min.js"></script><!--Slick-->
+		<script type="text/javascript" src="js/relatedProducts.js"></script><!--relatedProducts array-->
+		<!--map functions --><script type="text/javascript" src="js/myscript.js"></script>
+		
+		
+		<!--initialize slick-->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.customer-img').slick({
+					slidesToShow: 2,
+					slidesToScroll: 2,
+					speed: 300,
+					respondTo: 'min',
+					arrows: true,
+					draggable: false
+				});
+			});
+			
+			//this is for activating the data-toggle tooltip
+			$('body').tooltip({
+				selector: "[data-toggle='tooltip']"
+			});
+			
+		</script>
+		
+		<script>
+			// FLICKR API for product images
+			var url = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=03fd1a3dd44840ef446219ef4db45111&tags=organ+trafficking&tag_mode=all&safe_search=3&content_type=1&per_page=10";
+			
+			$.getJSON(url + "&format=json&jsoncallback=?", function(data){
+				$.each(data.photos.photo, function(i,item){
+					var src = "http://farm"+ item.farm +".static.flickr.com/"+ item.server +"/"+ item.id +"_"+ item.secret +"_q.jpg";
+					var page = "https://www.flickr.com/photos/" + item.owner + "/" + item.id;
+					
+					//var img = $("<img/>").attr("src", src).addClass("product-img");
+					//var link = $("<a></a>").attr("href", page).attr("target","_blank").attr("title", item.title).attr("data-toggle", "tooltip").append(img);
+					//link.appendTo("#customer-img");
+
+					//This is Slick adding the images from Flickr to "Customer Images"
+					$('.customer-img').slick('slickAdd',"<div><a href='" + page + "' target='_blank' data-toggle='tooltip' data-placement='top' title='" + item.title + "'><img src='" + src + "'/></a></div>");
+				});
+			});  
+		</script>		
+	</body>
+</html>

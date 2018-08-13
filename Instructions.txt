@@ -1,0 +1,26 @@
+1. Load website at http://www.prism.gatech.edu/~lnavarro6/6313_FinalProject/index.html
+2. Scroll down to "Kidney Explorer".
+2a. Under "Which best describes your current situation?" -- select one out of the four end scenarios for the buyer.
+3. Use slider to select your budget. There is a total of 8 available kidney sellers while the rest are 'sold':
+India		Raiji	750
+Iran		Narin	5500
+Israel		Vera	10000
+Israel		Elhan	20000
+Moldova		"C"	2700
+Pakistan	Haleem	1500
+Philippines	Bok	1500
+United States	Ji Hun	30000
+
+These are the products that are revealed by the slider:
+$949 iPhone
+$1810 Louis Vuitton bag
+$4800 Richard Hennessy whisky
+$9650 Cartier watch
+$15000 Tiffany Diamond ring
+$30000 Prius
+
+4. Click on a person on the map to find out their description and add them to your shopping cart.
+
+5. Click on "check out".
+
+6. Click on "continue shopping" to find out more stories, or click on "no way" to go to the "About" page.
