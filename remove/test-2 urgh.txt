@@ -1,0 +1,12 @@
+					//this is where i connect the slider with the map
+					group.clearLayers();
+					newlayer = L.geoJson(sellers, {
+						pointToLayer: function (feature, latlng) {
+						switch (feature.properties.status) {
+							case 'sold': return L.circleMarker(latlng, {fillColor: "gray", color: "white", weight: 1, fillOpacity: 0.8, radius: 12});
+							case 'available': return L.circleMarker(latlng, {fillColor: "red", color: "white", weight: 1, fillOpacity: 0.8, radius: 12});
+							}//switch
+						}, filter: function(feature, layer) {
+							return (feature.properties.cost <= max) && (feature.properties.cost >= min);
+						}//filter
+					});//new layer

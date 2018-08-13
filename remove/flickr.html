@@ -1,0 +1,17 @@
+<html>
+<body>
+  <title>jQuery API</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <h1>Show Picture Function</h1>
+  <div id="images"></div>
+  <script>
+	var url = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=03fd1a3dd44840ef446219ef4db45111&text=kidney+scar&per_page=10";
+	var src;
+	$.getJSON(url + "&format=json&jsoncallback=?", function(data){
+		$.each(data.photos.photo, function(i,item){
+			src = "http://farm"+ item.farm +".static.flickr.com/"+ item.server +"/"+ item.id +"_"+ item.secret +"_m.jpg";
+			$("<img/>").attr("src", src).appendTo("#images");
+		});
+	});  
+  </script>
+</html>

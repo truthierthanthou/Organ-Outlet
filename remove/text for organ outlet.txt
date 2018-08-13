@@ -1,0 +1,51 @@
+About the project
+Organ Outlet is a platform for finding kidney sellers or “donors” all around the world, while highlighting the commodification of living people into individual body parts. It uses a satirical tone to make a heavy subject more accessible to the interactor while using current web and shopping conventions to convey a sense of irony and reflexivity about our current consumer practices. While the site itself is meant to be humorous, the information conveyed in the site is based on aggregating data from books and online articles on the global organ trade.
+
+Context
+Transplant commercialism refers to the exchange of money for the procurement of organs between a recipient or donor, usually done through brokers, while transplant tourism occurs when people travel outside their country to procure an organ. (http://www.declarationofistanbul.org/) This practice requires a complex network of brokers, international patients, willing or not-so-willing sellers and medical professionals. 
+
+Globally, at least 200,000 people are on waiting lists for kidneys. (http://www.who.int/bulletin/volumes/85/1/07-020107/en/)
+In 2012, 114,690 organs were reported to be transplanted. This only satisfies 10% of the global need. http://newint.org/features/2014/05/01/organ-trafficking-keynote
+Around 10,000 organs are illegally sold globally each year according to the group Organs Watch. http://www.who.int/bulletin/volumes/85/1/07-020107/en/
+
+Inevitably the economically desperate and the vulnerable are the ones who end up selling their organs - the poor, people recovering from disasters (http://www.npr.org/2011/06/10/136931615/blood-bones-and-organs-the-gruesome-red-market), victims of war (http://www.spiegel.de/international/world/the-illegal-trade-in-organ-is-fueled-by-desperation-and-growing-a-847473-3.html) and political oppression (https://en.wikipedia.org/wiki/Persecution_of_Falun_Gong). Anthropologist Nancy Scheper-Hughes summarizes the supply chain of organs as coming "from South to North, from Third to First World, from poor to rich, from black and brown to white and from female to male". Brokers are central to linking the different players, organizing travel services that include travel accommodations, medical testing and bribes for 100,000 to 200,000 dollars. http://newint.org/features/2014/05/01/organ-trafficking-keynote
+
+Reasons for participating in the organ trade
+- Dialysis is expensive, risky and taxing
+- Rising levels of diabetes and heart diseases
+- Long transplant lists
+- Legal restrictions per country
+- Cultural narratives ("saving my family", "sacrifice")
+
+Risks to donors
+Not enough information about long-term effects (e.g., poor health, inability to perform physically demanding jobs)
+Lack of post-operation medical care
+Social ostracism
+Decreased physical and mental well-being
+Coercion, trickery and manipulation (e.g., getting cheated out of their pay)
+Money spent very quickly; low return-on-investment
+
+Risks to receivers
+Donors themselves forge their identities so they can participate in the system, leading to high risks for the receiver
+Medical complications for receivers (e.g., HIV, hepatitis B and C viruses)
+Expensive anti-rejection drugs that lower immune system 
+
+What's next
+While there are many debates over the ethical issues of organ trade - as to whether regulation or banning is the solution - the demand for organs, whether for scientific or medical reasons - will not go away. While we seek ways on how to 
+provides greater equity for the donors and receivers, altruistic organ donation (
+http://www.organdonor.gov/index.html) must also be promoted as an alternative - one person's survival need not be at the expense of another person's lifetime suffering.
+
+Works Cited
+Alesi, Francesco, and Luca Muzi. "Kidneys for Sale: Iran’s Trade in Organs." The Guardian. The Guardian, 10 May 2015. Web. 4 Dec. 2015. <http://www.theguardian.com/society/2015/may/10/kidneys-for-sale-organ-donation-iran>.
+Bilefsky, Dan. "Black Market for Body Parts Spreads Among the Poor in Europe." The New York Times. The New York Times, 28 June 2012. Web. 04 Dec. 2015. <http://www.nytimes.com/2012/06/29/world/europe/black-market-for-body-parts-spreads-in-europe.html>.
+Campbell, Denis, and Nicola Davison. "Illegal Kidney Trade Booms as New Organ Is 'sold Every Hour'" The Guardian. The Guardian, 27 May 2012. Web. 4 Dec. 2015. <http://www.theguardian.com/world/2012/may/27/kidney-trade-illegal-operations-who>.
+Carney, Scott. The Red Market: On the Trail of the World's Organ Brokers, Bone Thieves, Blood Farmers, and Child Traffickers. New York: William Morrow, 2011. Print.
+Cholia, Ami. "Illegal Organ Trafficking Poses A Global Problem." The Huffington Post. TheHuffingtonPost.com, 24 Aug. 2009. Web. 04 Dec. 2015. <http://www.huffingtonpost.com/2009/07/24/illegal-organ-trafficking_n_244686.html>.
+The Declaration on Istanbul on Organ Trafficking and Transplant Tourism. Declaration of Istanbul Custodian Group, 2014. Web. 04 Dec. 2015. <http://www.declarationofistanbul.org/>.
+"The Gap between Supply and Demand." The Economist. The Economist Newspaper, 11 Oct. 2008. Web. 04 Dec. 2015. <http://www.economist.com/node/12380981>.
+Garwood, Paul. "Dilemma over Live-donor Transplantation." World Health Organization. World Health Organization, Jan. 2007. Web. 04 Dec. 2015. <http://www.who.int/bulletin/volumes/85/1/07-020107/en/>.
+Ginzel, Arndt, Martin Kraushaar, and Steffen Winter. "Vera's Kidney, Walter's Money: Desperation, Greed and the Global Organ Trade." Spiegel Online. Spiegel Online, 3 Aug. 2012. Web. 04 Dec. 2015. <http://www.spiegel.de/international/world/the-illegal-trade-in-organ-is-fueled-by-desperation-and-growing-a-847473.html>.
+Scheper-Hughes, Nancy. "The Last Commodity: Post-Human Ethics and the Global Traffic in ‘Fresh’ Organs." Global Assemblages: Technology, Politics, and Ethics as Anthropological Problems. Ed. Aihwa Ong and Stephen Collier. Malden, MA: Blackwell Pub., 2005. N. pag. Print.
+Scheper-Hughes, Nancy. "Human Traffic: Exposing the Brutal Organ Trade." New Internationalist. New Internationalist, May 2014. Web. 04 Dec. 2015. <http://newint.org/features/2014/05/01/organ-trafficking-keynote/>.
+
+Shimazono, Yosuke. "The State of the International Organ Trade: A Provisional Picture Based on Integration of Available Information." World Health Organization. World Health Organization, Dec. 2007. Web. 04 Dec. 2015. <http://www.who.int/bulletin/volumes/85/12/06-039370/en/>.

@@ -1,0 +1,133 @@
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="Organ Outlet" content="Information design & simulation of the global organ trade">
+		
+		<title>Organ Outlet: Your One-Stop Chop Shop</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/leaflet.css"/>
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+	</head>
+
+	<body>
+		<!-- Navigation goes here 
+		================================================-->
+		<nav class="navbar navbar-static-top navbar-inverse">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#">Organ Outlet</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+			  <ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			  </ul>
+			</div><!-- /.nav-collapse -->
+		  </div><!-- /.container -->
+		</nav><!-- /.navbar -->
+		<!-- Navigation end -->
+		
+		
+		<!-- Jumbotron goes here 
+		================================================-->
+
+		<div class="jumbotron">
+		  <div class="container">
+			<h1>Need a kidney? There's an app for that.</h1>
+			<p>Experiencing kidney failure? Dialysis dragging you down? Too far down the organ waiting list? <b>We can help.</b></p>
+		  </div>
+		</div>
+
+		<div class="container" id="page">
+			<div id="marketing">
+			  <div class="row">
+				<div class="col-md-4">
+				  <h2>Find your match</h2>
+				  <p>We connect you with fresh, personalized kidneys from all over the world.</p>
+				</div><!--col-md-4-->
+				<div class="col-md-4">
+				  <h2>Sharing economy</h2>
+				  <p>Meet living donors, learn their stories and help out with their financial needs.</p>
+			   </div><!--col-md-4-->
+				<div class="col-md-4">
+				  <h2>Free market experience</h2>
+				  <p>No lines, no red tape and way cheaper than dialysis.</p>
+				</div><!--col-md-4-->
+			  </div><!--row-->
+			</div><!--marketing-->
+		</div>
+
+
+		<!-- map starts here -->
+		<div class="container">
+			<div class="row">
+				<div id="title" class="col-md-12">
+					<h2>Kidney Explorer</h2>
+					<p>Select people selling their kidneys and add them to your shopping cart!</p>
+				</div>
+			
+				<div id="budget" class="col-md-12">
+					<h3>Choose your budget:
+					<input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+					<div id="slider-range" style="width: 100%"></div>
+					</h3>
+				</div>
+				
+				<div class="col-md-8">
+					<div id="map"></div>
+				</div>
+				
+				<div id="images" class="col-md-4">
+					<h4>Customer Images</h4>
+					<div id="product-images"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="checkout">
+
+		</div>
+			
+		<!--Script files go here-->
+		<!--leaflet--><script type="text/javascript" src="js/leaflet.js"></script>
+		<!--JQuery--><script type="text/javascript" src="js/jquery.min.js"></script>
+		<!--JQuery UI--><script type="text/javascript" src="js/jquery-ui.js"></script>
+		<!--Bootstrap--><script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<!--My own --><script type="text/javascript" src="js/myscript.js"></script>
+		
+		<script>
+		
+			//this is for activating the data-toggle tooltip
+			$('body').tooltip({
+				selector: '[data-toggle="tooltip"]'
+			});
+			
+			// FLICKR API for product images
+			var url = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=03fd1a3dd44840ef446219ef4db45111&tags=organ+trafficking&tag_mode=all&text=&safe_search=3&content_type=1&per_page=4";
+			
+			$.getJSON(url + "&format=json&jsoncallback=?", function(data){
+				$.each(data.photos.photo, function(i,item){
+					var src = "http://farm"+ item.farm +".static.flickr.com/"+ item.server +"/"+ item.id +"_"+ item.secret +"_q.jpg";
+					var page = "https://www.flickr.com/photos/" + item.owner + "/" + item.id;
+					var img = $("<img/>").attr("src", src).addClass("product-img");
+					var link = $("<a></a>").attr("href", page).attr("target","_blank").attr("title", item.title).attr("data-toggle", "tooltip").append(img);
+					link.appendTo("#product-images");
+
+				});
+			});  
+
+		</script>
+	</body>
+</html>
