@@ -386,7 +386,8 @@ var pricerange = [[0,30000],[0,1000],[1000,2000],[2000,6000],[6000,10000],[10000
 
 // CLICK EVENT - LIST ITEM
 $("#list").on("click", ".listItem", function() {
-  var id = parseInt($(this).attr('id'));
+  var child = $(this).find(".card-body");
+  var id = parseInt(child.attr('id'));
   console.log(id);
   layer.eachLayer(function(layer) {
     if (parseInt(layer.feature.properties.id) === id) {
