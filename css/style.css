@@ -1,289 +1,594 @@
-/* 
-orange - #FF9711
-deep brown - #A6620A
-sky blue - #37B1F2
-baby blue - #53C3FF
-navy blue - #0C405C
-kidney red - #981D20
-super light gray - #BDB7AC
-*/
+@import url('https://fonts.googleapis.com/css?family=Crete+Round:400,400i|Open+Sans:400,700|East+Sea+Dokdo');
 
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #4A4A4A;
+}
+
+h1 {
+	font-family: 'Crete Round', serif;
+	color: #F58C76;
+	font-size: 2.9rem;
+}
+
+button a {
+	color: #fff;
+}
+
+button a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.page {
+	padding: 0;
+}
+
+.page-content {
+	margin-top: 3em;
+	margin-bottom: 3em;
+	padding: 1em 3.5em;
+}
+
+.page-content p {
+	margin: 2em 0;
+	line-height: 2em;
+}
+
+
+/* INTRO PAGE */
+
+#jumbotron {
+    background: url(../img/jumbotron.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #F7E9D9;
+    color: #fff;
+}
+
+#jumbotron .page-content {
+	padding: 0;
+	margin-top:0;
+}
+
+#jumbotron h1, #cta h1 {
+	font-size: 4rem;
+	margin-bottom: 2rem;
+	color: #FFFFFF;
+}
+
+.jumbotron-kidney {
+	background: url(../img/jumbotron-kidney.svg);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 10%;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 10%;
+    display: block;
+}
+
+.value-prop {
+	padding: 1em;
+}
+
+/* arrow */
+
+.arrow-box {
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    animation-iteration-count: infinite;
+    transition: 0.3s;
+}
+
+.arrow {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: auto;
+    border-left: 3px solid #F37784;
+    border-bottom: 3px solid #F37784;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+}
+
+.arrow:hover {
+	filter: drop-shadow(1px 1px 3px #333);
+}
+
+
+
+#value-prop-4 {
+    background: url(../img/jumbotron-2.svg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5em;
+    background-color: #F3F3F4;
+    color: #4A4A4A;
+    text-align: center;
+}
+
+#value-prop-4 h1 {
+	font-family: 'Open Sans', sans-serif;
+	color: #4A4A4A;
+	font-size: 2em;
+}
+
+#value-prop-4 h2, #risks h3 {
+	font-size: 1.3em;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 1.3em;
+}
+
+#value-prop-4 .value-prop {
+	padding: 3em;
+}
+
+#quote {
+	background-color: #fff;
+	font-family: 'Crete Round', serif;
+	font-weight: 400;
+	text-align: center;
+	color: #fff;
+	font-size: 1.3em;
+}
+
+.kidney-bg {
+	background: url(../img/kidney-2.svg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 80%;
+	padding: 7%;
+	display: block;
+	margin: auto;
+}
+
+#cta {
+	background-color: #6AA7D6;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	color: #fff;
+}
+
+/* MAP PAGE */
+
+.card {
+	transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.active {
+    border-color: #F37784;
+    border-width: 2px;
+}
+
+/* BUTTONS */
+
+.btn-primary {
+	background: #F37784;
+	border-radius: 16px;
+	padding: 12px 28px;
+	color: #FFFFFF;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 1.3px;
+}
+
+.btn-sm {
+	padding: 8px 22px;
+	font-size: .8em;
+}
+
+.btn-primary:hover {
+	background: #B55F68;
+} 
+
+.btn-primary:disabled {
+	background: #E4E4E4;
+	color: #9B9B9B;
+}
+
+.btn-outline-primary {
+	color: #F37784;
+	border-color: #F37784;
+}
+
+.btn-outline-primary:hover {
+	border-color: #F37784;
+	background: #F37784;
+}
+
+
+/* CHECKOUT PAGE */
 
 .navbar {
 	margin-bottom: 0;
 	border: 0;
-	height: 70px;
+	background-color: #F7E9D9;
 }
 
-.navbar-inverse {
-	border: none;
+#jumbotron .navbar {
+	position: absolute;
+	top: 0;
+	left: 0;
+
 }
 
-
-.navbar-brand {
-	background: url(../img/logo.png);
-    background-repeat: no-repeat;
-    background-size: 100px;
-	width: 120px;
-	height: 70px;
-	background-position: 15px 5px;
+.steps, .step {
+	height: 100%;
+	width: 100%;
+	overflow:hidden;
+	text-align: left;
 	padding: 0;
 	margin: 0;
 }
 
-.nav li {
-	float: left;
-	padding-top: 10px;
+.step-header, .step-content {
+	padding: 2em 2em 0;
 }
 
-button .navbar-toggle {
-	margin-top: 10px;
+.steps h1, .works h1 {
+	font-size: 2.25em;
+	margin-bottom: 1em
 }
 
-/* JUMBOTRONS 
-=================*/
-
-.main {
-	background-image: url("../img/jumbotron-2.jpg");
-	height: 400px;
-	background-size: cover;
+.steps h2 {
+	font-size: 1em;
 }
 
-.main .container {
-	color: #000000;
-	line-height: 150%;
-	letter-spacing: 2px;
-    text-align: center;
-    width: 100%;
-	color:#ffffff;
-}
-
-.about {
-	background-color: #0C405C;
-	color:#ffffff;
-}
-
-.about img {
-	float: right;
-	clear: right;
-	height: 20%;
-	display: block;
-    margin-left: 30px;
-}
-
-
-.page {
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-
-.page-header {
-	height: 120px;
-	text-align: center;
-	line-height: 150%;
-}
-
-#marketing {
+.steps .footer {
+	margin: 2em;
 	text-align: center;
 }
 
-#marketing img {
-	height: 200px;
-	padding: 10px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-#explorer {
-	background-color: #FF9711;
-	padding: 30px;
+#step-0 {
 	text-align: center;
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-#explorer img {
-	height: 50px;
-}
-
-/* MAP ELEMENTS */
-
-.ui-state-default, .ui-widget-content .ui-state-default {
-	background-color: #53C3FF;
-}
-
-#budget {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	/*background-color: #666666;*/
-}
-
-#budget legend {
-	border-bottom: none;
-	margin-bottom: 5px;
-}
-
-#budget-box {
-	padding: 10px;
-}
-
-/* MAP ELEMENTS */
-
-#slider-range {
-	width: 100%;
-	font-size: 1.5em;
-}
-
-.legend {	
-	background: white;
-	padding: 10px;
-	box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    border-radius: 5px;
-	width: 150px;
-	color: #555;
-	line-height: 14px;
-}
-
-.legend i {
-	width: 14px;
-    height: 14px;
-    float: left;
-    margin-right: 8px;
-	opacity: 0.7;
-}
-
-
-#map { 
-    width: 100%;
-	height: 500px;
-    display: block;
-	overflow: hidden;
-	padding: 30px;
-}
-
-#amount {
-	border: 0; 
-	color: #f6931f; 
-	font-weight: bold;
-	background: transparent;
-}
-
-#product-images {
-	width: 100%;
-}
-
-#images h4 {
-	margin-bottom: 0;
-}
-
-.product-img {
-	display: inline;
-	margin: 10px;
-}
-
-.current-img  img {
-	height: 150px;
-	float: left;
-    margin-right: 10px;
-}
-
-.current-img p {
-	font-size: .75em;
-}
-
-/* Checkout 
-=======================*/
-.table .small {
-	color: #666666;
-}
-
-
-
-
-/* Consequences 
-=======================*/
-#consequences {
-	background-color: #FF9711;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	margin-bottom: 0px;
-}
-
-#consequences img {
-	width: 150px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/*
-#consequences h2 {
-	text-align: center;
-}
-*/
-
-#donor-fate {
-	font-style: italic;
-}
-
-#donor-fate a {
-	font-style: normal;
-}
-
-.buttons {
-	margin: 50px 0;
-	text-align: center;
-	
-}
-
-.buttons button {
-	margin: 0 5px;
-}
-
-
-/* SLICK CAROUSEL
-=======================*/
-.slick-slide {
-	width: 100%;
-	height: 150px;
-}
-
-.slick-slide img {
-	margin: auto;
-}
-
-.slick-prev:before, .slick-next:before{
-	color: #000;
 	margin: 0;
 }
 
-.slick-next {
-	right: -15px;
-}	
 
-.slick-prev {
-	left: -15px;
+.icon {
+	max-width: 100px;
+	margin: auto;
+}
+
+#step-0 h1 {
+	font-size: 3em;
+	color: #4A4A4A;
+}
+
+#step-0 h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 1.625em;
+	text-align: center;	
+}
+
+#step-0 .step-header {
+	margin: 0;
+	height: 200px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7E9D9;
+    overflow: hidden;
+    background: url(../img/banner.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+#step-1-reason .card {
+	font-size: .8em;
+	min-height: 100%;
+	vertical-align: text-bottom;
+	text-align: center;
+	overflow: hidden;
+}
+
+#step-1-reason .card-title {
+  font-size: 1em;
+  font-weight: 700;	
+}
+
+
+#step-2-map .banner {
+	width: 100%;
+	padding: 5px;
+	display: block;
+	background: #F6A85A;
+	text-align: center;
+	height: auto;
+	position: absolute;
+    left: 0;
+    font-size: .8em;
+    color: #fff;
+}
+
+/* STEP 2 - ALL THE MAP STUFF */
+
+#step-2-map .step-header {
+	margin-bottom: 1em;
+}
+
+#map { 
+    width: 100%;
+	height: 456px;
+    display: block;
+	overflow: hidden;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#map .leaflet-popup-content {
+	max-width: 280px;
+}
+
+#map .leaflet-popup-content span {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-weight: 700;
+}
+
+#map .leaflet-popup-content button {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.form-control-sm, .font-sm {
+	font-size: .8em;
+}
+
+
+#list {
+	height: 456px;
+}
+
+#list .card {
+	margin-bottom: 8px;
+}
+
+#list .card-body {
+	padding: .8em;
+}
+
+#list .card-title {
+	font-weight: 700;
+	margin-bottom: .3em;
+}
+
+#list .card-img-sm {
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+	min-width: 100px;
+}
+
+#list .card-img-sold {
+	background: url(../img/sellerSold.svg);
+}
+
+#list .card-img-av {
+	background: url(../img/sellerAvailable.svg);
+}
+
+#list .listItem span {
+	position: absolute;
+	top: .8rem;
+	right: .8rem;
+}
+
+.badge {	
+	padding: .25em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: .8em;
+	background-color: #F6A85A;
+	display: block;
+	width: fit-content;
+	font-weight: 400;
+}
+
+#step-2-ads .card:hover {
+	box-shadow:none;
+}
+
+
+#step-2-ads .ad {
+	max-width: 75%; min-width: 200px; margin: 2em auto;
+}
+
+#step-2-ads h2 {
+	font-size: 1.2em;
+}
+
+#step-2-ads .card-img {
+	width: 200px;
+	background-color: #F7E9D9;
+	padding: 1em;
+}
+
+
+#step-2-ads .card-img-ad {
+    background: url(../img/jumbotron.svg);
+    background-size: 100%;
+    background-position: -336px 115px;
+    background-color: #CE506B;
+}
+
+#step-2-ads .card-img img {
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: auto;	
+}
+
+#step-2-ads h3, #step-3 h2, #risks h3, .works h2 {
+	font-weight: 700;
+	font-size: 1em;
+}
+
+
+/* STEP 3 - CHECK OUT */
+
+#step-3 h2 {
+	text-align: center;
+}
+
+#step-3 .table {
+	max-width: 60%;
+	min-width: 300px;
+	margin: 2rem auto;
+	font-size: .9em;
+}
+
+#step-3 td:nth-child(2) {
+    text-align: right;
+}
+
+#step-3 .table-header, #total-price {
+	font-weight: 700;
+	margin-bottom: .5rem;	
+}
+
+#step-3 p.small {
+	color: #9B9B9B;
+}
+
+/* STEP 4 - FINAL PAGE */
+
+#step-4 .step-content {
+	padding: 0;
+}
+
+#jumbotron, #step-4 .step-header, .donor-testimonial, .buyer-testimonial, .continue-shopping {
+	height: 90vh;
+	padding: 3em;
+	text-align: center;
+}
+
+#step-4 .step-header p {
+	max-width: 30em;
+	margin: 1em auto;
+}
+
+#step-4 .read-more {
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%)
+}
+
+#step-4 .step-content h1 {
+	font-weight: 400;
+	color: #D8D8D8;
+	margin-bottom: 2em;
+	font-size: 1.5rem;
+}
+
+.donor-name {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: .8em;
+	color: #fff;
+	text-transform:uppercase;
+
+}
+
+#step-4 .donor-testimonial .row, .buyer-testimonial .row, .continue-shopping .row  {
+	height: 100%;
+}
+
+#step-4 .donor-testimonial {
+	text-align: left;
+	background: url(../img/jumbotron.svg);
+	background-size: cover;
+	background-color: #000;
+	filter: grayscale(80%) saturate(1) hue-rotate(180deg) opacity(90%);
+}
+
+#step-4 .donor-testimonial-img {
+	width: 100%;
+	opacity: .5;
+}
+
+#step-4 .donor-fate {
+	font-family: 'East Sea Dokdo', cursive;
+    font-size: 3rem;
+    color: #fff;
+    line-height: 2rem;
+}
+
+.buyer-testimonial {
+	background: url(../img/jumbotron.svg);
+	background-size: cover;
+	filter: brightness(0.1) sepia(1) hue-rotate(180deg) saturate(5);
+}
+
+#step-4 .buyer-testimonial h1 {
+	margin-bottom: 1em;
+}
+
+#step-4 .buyer-testimonial-text {
+	width: 60%;
+	margin: auto;
+	color: #4A4A4A;
+}
+
+#step-4 .continue-shopping h1 {
+	font-size: 2.25em;
+	color: #F58C76;
+	margin: 1em;
+}
+
+#step-4 .continue-shopping img {
+	max-height: 300px;
 }
 
 /* ABOUT PAGE */
 
-#risks h2 {
-	font-size: 1.5em;
+.about {
+	background: url(../img/jumbotron.svg);
+	background-size: cover;
+	background-position: top;
 }
 
-#risks ul {
-	padding-left: 3px;
+#risks {
+		background-color: #F3F3F4;
+		margin: 0;
+}
+
+#risks .row {
+	padding: 2em 10em;
+}
+
+#risks h3 {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+#risks .icon {
+	display: block;
+	margin: auto;
+	max-height: 70px;
+	margin-bottom: 1em;
 }
 
 #risks li {
-	font-size: .85em;
-}
-
-#works-cited p {
-	font-size: .85em;
+	margin-bottom: 1em;
+	font-size: .8em;
 }
