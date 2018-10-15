@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Organ Outlet - Live longer, Buy a Kidney</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!--old
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+-->
+
+</head>
+<body class="animated fadeIn">
+
+<div class="page container-fluid" id="jumbotron">
+  <nav class="navbar">
+    <a class="navbar-brand" href="index.html"><img src="img/logo.svg" height="110"/></a>
+  </nav>  
+  <div class="jumbotron-kidney">
+    <h1>Need a kidney?</h1>
+    <p>There's an app for that</p>
+  </div>
+  <div class="arrow-box animated pulse">
+      <span class="arrow"></span>
+  </div>
+</div>
+
+<div class="page container-fluid arrow-down" id="value-prop-1">
+  <div class="page-content wow fadeInRight row align-items-center" data-wow-offset="20" data-wow-duration="1.5s">
+    <div class="col-md-6">
+      <div class="value-prop">
+        <h1>Start your life <i>fresh</i></h1>
+        <p>Experiencing kidney failure? Is dialysis dragging you down? Too far down the organ waitlist? We can help.</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <img src="img/value-prop-1.svg"/>
+    </div>
+  </div>
+</div>
+
+<div class="page container-fluid" id="value-prop-2">
+  <div class="page-content wow fadeInLeft row align-items-center" data-wow-offset="20" data-wow-duration="1.5s">
+    <div class="col-md-6">
+      <img src="img/value-prop-2.svg"/>
+    </div>
+    <div class="col-md-6">
+      <div class="value-prop">
+        <h1>Seamless Experience</h1>
+        <p>Find a new kidney with one click. No lines, no red tape, and cheaper than dialysis</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="page container-fluid" id="value-prop-3">
+  <div class="page-content wow fadeInRight row align-items-center" data-wow-offset="20" data-wow-duration="1.5s">
+    <div class="col-md-6">
+      <div class="value-prop">
+        <h1>Empower others</h1>
+        <p>Connect with diverse, living donors around the world, learn their unique stories, and help them make a living.</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <img src="img/value-prop-3.svg"/>
+    </div>
+  </div>
+</div>
+
+<div class="page container-fluid" id="value-prop-4">
+  <h1 class="wow fadeInDown" data-wow-delay="0.4s">Community of Trust</h1>
+  <div class="row">
+    <div class="col-md-6 value-prop wow fadeInDown" data-wow-delay="0.6s" data-wow-offset="10">
+      <h2>Personalized Service</h2>
+      <p>We work with local Matchmakers, doctors, hospitals, and travel companies to give you a first in class experience.</p>
+      <img src="img/value-prop-4.svg" />
+    </div>
+
+    <div class="col-md-6 value-prop wow fadeInDown" data-wow-delay="0.8s" data-wow-offset="20">
+      <h2>Sharing Economy</h2>
+      <p>Our partners, Super, TaskRibbit, and Liverr will help your Donor find employment after their operation.</p>
+      <img src="img/value-prop-5.svg" />
+    </div>
+  </div><!--row-->
+</div>
+
+<div class="page container-fluid wow fadeIn" id="quote" data-wow-offset="20" data-wow-duration="1.5s">
+  <div class="kidney-bg">
+    <div class="row align-items-center">
+      <div class="col">
+        <img src="img/testimonial.svg" />
+      </div>
+
+      <div class="col">
+        <p class="quote">"I’ve just started a new company, and I can’t attach myself to a machine three days a week. Organ Outlet saved my life.”</p>
+        <p class="donor-name" style="text-align: center">-Jim, Tech Entrepreneur</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="page container-fluid" id="cta">
+  <div class="page-content">
+    <h1>Explore the best* prices <br>in the free market.</h1>
+    <p>*We kidney you not</p>
+    <a href="shopping.html"><button class="btn btn-primary" type="button">Shop Now</button></a>
+  </div>  
+</div>
+
+
+ 
+
+
+<!-- SCRIPTS -->
+
+ <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+   crossorigin=""></script>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/style.js"></script> 
+<script src="js/map.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+
+</body>
+</html>
