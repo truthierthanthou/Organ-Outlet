@@ -453,11 +453,11 @@ function addtoList(layer) {
       country = layer.feature.properties.country,
       badge = Math.random();
 
-    var availableDiv = "<div class='card d-flex flex-row justify-content-start'><div class='card-img-sm card-img-av'></div><div class='card-body listItem' id='" + id + "'><p class='card-title'>" +
+    var availableDiv = "<div class='card d-flex flex-row justify-content-start listItem'><div class='card-img-sm card-img-av'></div><div class='card-body' id='" + id + "'><p class='card-title'>" +
             name + "</p><span>$" + cost + "</span><p>" +
             country + "</p>" + createBadge(badge) + "</div></div>";
 
-    var soldDiv = "<div class='card d-flex flex-row justify-content-start' style='color: #9B9B9B'><div class='card-img-sm card-img-sold'></div><div class='card-body listItem' id='" + id + "'><p class='card-title'>Sold out" +
+    var soldDiv = "<div class='card d-flex flex-row justify-content-start listItem' style='color: #9B9B9B'><div class='card-img-sm card-img-sold'></div><div class='card-body' id='" + id + "'><p class='card-title'>Sold out" +
         "</p>" + "<span>$" + cost + "</span><p>" +
         country + "</p></div></div>";
    
